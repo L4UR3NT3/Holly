@@ -1,0 +1,76 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: "Carrois Gothic SC", sans-serif;
+    color: #940606;
+    background-color: #050505;
+    margin-bottom: 100px;
+}
+
+.carrois-gothic-sc-regular {
+    font-family: "Carrois Gothic SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    background-color: #030303;
+    border: #000000 solid;
+    border-radius: 5px;
+    display: block;
+}
+
+.txtHeader {
+    margin: 5px;
+    text-align: center;
+    color: #940606;
+    font-size: 50px;
+}
+
+.section1 {
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+.like {
+    margin: 5px;
+    padding: 5px;
+    background-color:  #940606;
+    color:#050505;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.section2 {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoriaVideos img {
+    opacity: 0.3;
+    height: 200px;
+}
+
+.categoriaVideos img:hover {
+    opacity: 1.0;
+    border: 0.5px solid #940606;
+}
+
+.categoriaVideos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
